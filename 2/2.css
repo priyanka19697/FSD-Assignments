@@ -1,0 +1,45 @@
+.logo {
+	height: 100px;
+	width: 100px;
+	border:none; 
+	background:transparent;
+}
+
+.heading {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font-family: monospace;
+	font-size: 4rem;
+	font-style:bold;
+	
+	float: auto;
+}
+
+.subscript {
+	text-align: center;
+	font-family: monospace;
+	font-size: 1rem;
+	font-style:bold;
+	color: #2f5687;
+	float: auto;
+}
+
+.navbar-brand-name > {
+
+  display: inline-block;
+  float:right;
+ 
+
+}
+
+.navbar-brand-name > img {
+  display: inline-block;
+  float: left;
+  padding: 0 15px 0 0;
+}
+
+.sheet {
+	height : 600px;
+	widows: 600px;
+}
