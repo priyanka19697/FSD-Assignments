@@ -42,19 +42,25 @@
 						<input type="email" class="form-control" id="email">
 					</div>
 				</div>
-				<div class="city">
+				<div class="form-group">
+					<div class="col-s"> 
+
 					<label for="city">City</label>
-					<div class="dropdown">
-						<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-							<span class="caret"></span></button>
-							<ul class="dropdown-menu">
-								<li><a href="#">HTML</a></li>
-								<li><a href="#">CSS</a></li>
-								<li><a href="#">JavaScript</a></li>
-							</ul>
-						</div>
+					<input list="cities" class="form-control" name="cities">
+					
+					<datalist id="cities">
+						<option value="Rajkot"/>
+					    <option value="Vizag"/>
+						<option value="Banglore"/>
+						<option value="Chennai"/>
+						<option value="Mussorie"/>
+					</datalist>
+
+
 				</div>
-				<button type="submit" class="btn btn-default">Submit</button>
+
+				</div>
+				<input type="submit" class="btn btn-default">
 			</form>
 		</div>
 
